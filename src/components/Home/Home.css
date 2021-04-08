@@ -1,0 +1,34 @@
+.adill {
+  position: relative;
+  top: 200px;
+  max-width: 800px;
+  height: 100vh;
+  display: flex;
+
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  margin: 0 auto;
+}
+
+.main {
+  background: url("http://fixedgeargallery.com/wp-content/uploads/2019/05/CF785B90-9D9A-439F-996A-02EC1B15B5C1-1024x768.jpeg")
+    no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.shop-button {
+  position: relative;
+  color: white;
+  font-size: 20px;
+  background-color: deeppink;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  top: 300px;
+}
+.egg {
+  font-size: 35px;
+}
