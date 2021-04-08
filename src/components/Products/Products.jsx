@@ -1,13 +1,13 @@
-import React from 'react';
-import Grid from '@material-ui/core/Grid';
+import React from "react";
+import Grid from "@material-ui/core/Grid";
 
-import Product from './Product/Product';
-import useStyles from './styles';
+import Product from "./Product/Product";
+import useStyles from "./styles";
 
 const Products = ({ products, onAddToCart }) => {
   const classes = useStyles();
 
-  if (!products.length) return <p>Loading...</p>;
+  if (!products.length) return <p>Loading..</p>;
 
   return (
     <main className={classes.content}>
@@ -24,4 +24,3 @@ const Products = ({ products, onAddToCart }) => {
 };
 
 export default Products;
-
