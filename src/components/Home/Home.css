@@ -1,34 +1,32 @@
-.adill {
-  position: relative;
-  top: 200px;
-  max-width: 800px;
-  height: 100vh;
-  display: flex;
-
-  align-items: center;
-  flex-direction: column;
-  color: white;
-  margin: 0 auto;
-}
-
 .main {
-  background: url("http://fixedgeargallery.com/wp-content/uploads/2019/05/CF785B90-9D9A-439F-996A-02EC1B15B5C1-1024x768.jpeg")
-    no-repeat center center;
+  background: url("https://i.pinimg.com/originals/16/0f/94/160f94562b92d78eb6c424f20a0c27f7.jpg");
+  height: 100vh;
   -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
+  background-position: center center;
+  position: relative;
+  justify-content: space-around;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+}
+.header {
+  font-size: 50px;
+  color: white;
 }
 .shop-button {
-  position: relative;
-  color: white;
-  font-size: 20px;
+  font-size: 50px;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  border-radius: 12px;
   background-color: deeppink;
+  color: white;
+  text-decoration: none;
   padding: 10px;
-  padding-left: 20px;
-  padding-right: 20px;
-  top: 300px;
-}
-.egg {
-  font-size: 35px;
 }
