@@ -30,3 +30,27 @@
   text-decoration: none;
   padding: 10px;
 }
+@media (max-width: 800px) {
+  .header {
+    font-size: 45px;
+  }
+  .shop-button {
+    font-size: 45px;
+  }
+}
+@media (max-width: 600px) {
+  .header {
+    font-size: 35px;
+  }
+  .shop-button {
+    font-size: 35px;
+  }
+}
+@media (max-width: 400px) {
+  .header {
+    font-size: 25px;
+  }
+  .shop-button {
+    font-size: 25px;
+  }
+}
