@@ -7,10 +7,22 @@ function Home() {
     <div>
       <section className="main">
         <div className="container">
-          <h1 className="header">Simple.</h1>
-          <h2 className="header">Affordable.</h2>
-          <h3 className="header">Efficient.</h3>
-          <h4 className="header">Fast.</h4>
+          <h1 className="header">Fast.</h1>
+          <h2 className="header">Simple.</h2>
+          <h3 className="header">Affordable.</h3>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
           <div>
             <Link className="shop-button" to="/Products">
               Get It Now
